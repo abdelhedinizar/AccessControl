@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+     <!--   <item
+            android:id="@+id/administration"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Administration" />
+        <item
+            android:id="@+id/employé"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Employé" />
+        <item
+            android:id="@+id/horairesdetravail"
+            android:icon="@drawable/ic_alarm_black_24dp"
+            android:title="Horaires de travail" />
+        <item
+            android:id="@+id/conges"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Congés" />  -->
+<group>
+    <item
+        android:title="Présences">
+        <menu>
+        <item
+            android:id="@+id/JournalisationPrésence"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Journalisation présences" />
+        <item
+            android:id="@+id/GestionprésencesManuels"
+            android:icon="@drawable/ic_alarm_black_24dp"
+            android:title="Gestion présences Manuels" />
+
+        <item
+            android:id="@+id/Tableaudebord"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Tableau de bord" />
+
+            <item
+                android:id="@+id/JournalisationDesAccès"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Journalisation des accès" />
+
+
+        </menu>
+    </item>
+</group>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/reinitialisermotdepass"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Réinitialiser mot de pass" />
+            <item
+                android:id="@+id/deconnexion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Déconnexion" />
+        </menu>
+    </item>
+
+</menu>

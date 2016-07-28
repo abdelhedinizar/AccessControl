@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="15dp">
+
+  <lecho.lib.hellocharts.view.PieChartView
+     android:layout_gravity="center"
+       android:id="@+id/chart"
+       android:layout_width="300dp"
+       android:layout_height="300dp" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+  <View
+      android:layout_width="15dp"
+      android:layout_height="15dp"
+      android:background="@color/colorPrimaryDark"/>
+</LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingTop="15dp">
+    <View
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="#FE6DA8"/>
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingTop="15dp">
+    <View
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="#FED70E"/>
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingTop="15dp">
+
+  <View
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="#56B7F1"/>
+  </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

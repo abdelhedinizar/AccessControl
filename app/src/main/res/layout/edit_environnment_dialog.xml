@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ip1EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="." />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ip2EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="." />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ip3EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="." />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ip4EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ipPortEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/access-control-web/rest/services/attendance" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/cancelEditButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#1E88E5"
+            android:text="cancel"/>
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/editButoon"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#1E88E5"
+            android:text="Edit"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

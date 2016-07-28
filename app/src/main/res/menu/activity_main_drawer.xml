@@ -37,9 +37,9 @@
             android:title="Tableau de bord" />
 
             <item
-                android:id="@+id/JournalisationDesAccès"
+                android:id="@+id/statistiquedepresence"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Journalisation des accès" />
+                android:title="Statistique de présence" />
 
 
         </menu>

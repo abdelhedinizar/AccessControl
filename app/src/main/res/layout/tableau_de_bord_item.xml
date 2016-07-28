@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="employee"
+        style="@style/AlertDialog.AppCompat"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/employeeTextViewTableaudeBordItem"
+        android:paddingLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time worked (current day)"
+        style="@style/AlertDialog.AppCompat"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dayTimeworkedTextViewTableaudeBordItem"
+        android:paddingLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time worked (current week)"
+        style="@style/AlertDialog.AppCompat"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weekTimeworkedTextViewTableaudeBordItem"
+        android:paddingLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time worked (current month)"
+        style="@style/AlertDialog.AppCompat"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/monthTimeworkedTextViewTableaudeBordItem"
+        android:paddingLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee State"
+        style="@style/AlertDialog.AppCompat"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/employeeState"
+        android:paddingLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingBottom="20dp"
+       />
+
+</LinearLayout>

@@ -21,6 +21,11 @@ public class Employee {
         this.firstName = firstName;
     }
 
+    public Employee(String firstName,String lastName,String phoneNumber){
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.phoneNumber=phoneNumber;
+    }
     public Employee() {
 
     }

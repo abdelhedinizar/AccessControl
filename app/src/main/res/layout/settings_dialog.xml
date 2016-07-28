@@ -36,6 +36,7 @@
     android:orientation="horizontal"
     android:gravity="right">
     <com.gc.materialdesign.views.ButtonIcon
+        android:id="@+id/ITGIconButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         materialdesign:iconDrawable="@drawable/ic_edit_black_24dp"
@@ -83,6 +84,7 @@
             android:orientation="horizontal"
             android:gravity="right">
             <com.gc.materialdesign.views.ButtonIcon
+                android:id="@+id/RECIconButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 materialdesign:iconDrawable="@drawable/ic_edit_black_24dp"
@@ -132,6 +134,7 @@
             android:gravity="right">
 
             <com.gc.materialdesign.views.ButtonIcon
+                android:id="@+id/REC2IconButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 materialdesign:iconDrawable="@drawable/ic_edit_black_24dp"
@@ -141,7 +144,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#1E88E5"
-            materialdesign:check="true" />
+            materialdesign:check="false" />
     </LinearLayout>
         </LinearLayout>
 
